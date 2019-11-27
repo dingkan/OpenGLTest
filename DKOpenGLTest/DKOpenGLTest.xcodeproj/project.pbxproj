@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62DF4D1237D28CB00474E15 /* DKTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62DF4D0237D28CB00474E15 /* DKTestView.m */; };
+		D631D4BB237EA0400027B675 /* brightness1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D631D4BA237EA0400027B675 /* brightness1.fsh */; };
+		D631D4BD237EA04E0027B675 /* saturation1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D631D4BC237EA04E0027B675 /* saturation1.fsh */; };
 		D6A122E2237BF477008F8361 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A122E1237BF477008F8361 /* AppDelegate.m */; };
 		D6A122E5237BF477008F8361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A122E4237BF477008F8361 /* ViewController.m */; };
 		D6A122E8237BF477008F8361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A122E6237BF477008F8361 /* Main.storyboard */; };
@@ -14,9 +17,21 @@
 		D6A122ED237BF478008F8361 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A122EB237BF478008F8361 /* LaunchScreen.storyboard */; };
 		D6A122F0237BF478008F8361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A122EF237BF478008F8361 /* main.m */; };
 		D6A122F7237BF4A6008F8361 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6A122F6237BF4A6008F8361 /* config.plist */; };
+		D6A1231B237BF7A2008F8361 /* DKTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A1231A237BF7A2008F8361 /* DKTestViewController.m */; };
+		D6A12322237BF9B9008F8361 /* DKShaderComplier.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A12321237BF9B9008F8361 /* DKShaderComplier.m */; };
+		D6A12324237C29AF008F8361 /* vertex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = D6A12323237C29AF008F8361 /* vertex.vsh */; };
+		D6A12326237C29BB008F8361 /* fragment.fsh in Resources */ = {isa = PBXBuildFile; fileRef = D6A12325237C29BB008F8361 /* fragment.fsh */; };
+		D6A12329237C2C52008F8361 /* wuyanzu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A12327237C2C52008F8361 /* wuyanzu.jpg */; };
+		D6A1232A237C2C52008F8361 /* smalldaniel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6A12328237C2C52008F8361 /* smalldaniel.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D62DF4CF237D28CB00474E15 /* DKTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTestView.h; sourceTree = "<group>"; };
+		D62DF4D0237D28CB00474E15 /* DKTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTestView.m; sourceTree = "<group>"; };
+		D631D4AC237E90940027B675 /* saturation.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = saturation.fsh; sourceTree = "<group>"; };
+		D631D4AD237E90A90027B675 /* brightness.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = brightness.fsh; sourceTree = "<group>"; };
+		D631D4BA237EA0400027B675 /* brightness1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = brightness1.fsh; sourceTree = "<group>"; };
+		D631D4BC237EA04E0027B675 /* saturation1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = saturation1.fsh; sourceTree = "<group>"; };
 		D6A122DD237BF477008F8361 /* DKOpenGLTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKOpenGLTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A122E0237BF477008F8361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D6A122E1237BF477008F8361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,6 +43,14 @@
 		D6A122EE237BF478008F8361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6A122EF237BF478008F8361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D6A122F6237BF4A6008F8361 /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		D6A12319237BF7A2008F8361 /* DKTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKTestViewController.h; sourceTree = "<group>"; };
+		D6A1231A237BF7A2008F8361 /* DKTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKTestViewController.m; sourceTree = "<group>"; };
+		D6A12320237BF9B9008F8361 /* DKShaderComplier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKShaderComplier.h; sourceTree = "<group>"; };
+		D6A12321237BF9B9008F8361 /* DKShaderComplier.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKShaderComplier.m; sourceTree = "<group>"; };
+		D6A12323237C29AF008F8361 /* vertex.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = vertex.vsh; sourceTree = "<group>"; };
+		D6A12325237C29BB008F8361 /* fragment.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = fragment.fsh; sourceTree = "<group>"; };
+		D6A12327237C2C52008F8361 /* wuyanzu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wuyanzu.jpg; sourceTree = "<group>"; };
+		D6A12328237C2C52008F8361 /* smalldaniel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = smalldaniel.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +83,10 @@
 		D6A122DF237BF477008F8361 /* DKOpenGLTest */ = {
 			isa = PBXGroup;
 			children = (
+				D6A12328237C2C52008F8361 /* smalldaniel.jpg */,
+				D6A12327237C2C52008F8361 /* wuyanzu.jpg */,
+				D6A1231F237BF99A008F8361 /* Util */,
+				D6A12318237BF79A008F8361 /* test */,
 				D6A122E0237BF477008F8361 /* AppDelegate.h */,
 				D6A122E1237BF477008F8361 /* AppDelegate.m */,
 				D6A122E3237BF477008F8361 /* ViewController.h */,
@@ -72,6 +99,32 @@
 				D6A122EF237BF478008F8361 /* main.m */,
 			);
 			path = DKOpenGLTest;
+			sourceTree = "<group>";
+		};
+		D6A12318237BF79A008F8361 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D6A12319237BF7A2008F8361 /* DKTestViewController.h */,
+				D6A1231A237BF7A2008F8361 /* DKTestViewController.m */,
+				D62DF4CF237D28CB00474E15 /* DKTestView.h */,
+				D62DF4D0237D28CB00474E15 /* DKTestView.m */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		D6A1231F237BF99A008F8361 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D6A12320237BF9B9008F8361 /* DKShaderComplier.h */,
+				D6A12321237BF9B9008F8361 /* DKShaderComplier.m */,
+				D6A12323237C29AF008F8361 /* vertex.vsh */,
+				D6A12325237C29BB008F8361 /* fragment.fsh */,
+				D631D4BA237EA0400027B675 /* brightness1.fsh */,
+				D631D4BC237EA04E0027B675 /* saturation1.fsh */,
+				D631D4AC237E90940027B675 /* saturation.fsh */,
+				D631D4AD237E90A90027B675 /* brightness.fsh */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,10 +184,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A12329237C2C52008F8361 /* wuyanzu.jpg in Resources */,
 				D6A122F7237BF4A6008F8361 /* config.plist in Resources */,
+				D6A12326237C29BB008F8361 /* fragment.fsh in Resources */,
 				D6A122ED237BF478008F8361 /* LaunchScreen.storyboard in Resources */,
+				D6A1232A237C2C52008F8361 /* smalldaniel.jpg in Resources */,
 				D6A122EA237BF478008F8361 /* Assets.xcassets in Resources */,
+				D6A12324237C29AF008F8361 /* vertex.vsh in Resources */,
+				D631D4BD237EA04E0027B675 /* saturation1.fsh in Resources */,
 				D6A122E8237BF477008F8361 /* Main.storyboard in Resources */,
+				D631D4BB237EA0400027B675 /* brightness1.fsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,9 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A12322237BF9B9008F8361 /* DKShaderComplier.m in Sources */,
+				D62DF4D1237D28CB00474E15 /* DKTestView.m in Sources */,
 				D6A122E5237BF477008F8361 /* ViewController.m in Sources */,
 				D6A122F0237BF478008F8361 /* main.m in Sources */,
 				D6A122E2237BF477008F8361 /* AppDelegate.m in Sources */,
+				D6A1231B237BF7A2008F8361 /* DKTestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
